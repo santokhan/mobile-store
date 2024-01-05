@@ -1,22 +1,20 @@
-import blockContent from './blockContent'
-import crewMember from './crewMember'
-import castMember from './castMember'
-import movie from './movie'
-import person from './person'
-import screening from './screening'
-import plotSummary from './plotSummary'
-import plotSummaries from './plotSummaries'
+import sales from './sales'
+import inStock from './inStock'
+import brands from './brands'
+import models from './models'
+import phones from './phones'
+import customer from './customer'
+import salesReturn from './salesReturn'
 
 export const schemaTypes = [
   // Document types
-  movie,
-  person,
-  screening,
+  brands,
+  models,
+  phones,
 
-  // Other types
-  blockContent,
-  plotSummary,
-  plotSummaries,
-  castMember,
-  crewMember,
+  // IMEI primary key
+  inStock,
+  sales,
+  salesReturn,
+  customer,
 ]
